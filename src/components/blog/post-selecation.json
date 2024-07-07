@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blog_post_selecations",
+  "info": {
+    "displayName": "PostSelecation",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    },
+    "SelectionHeading": {
+      "type": "string"
+    }
+  }
+}
